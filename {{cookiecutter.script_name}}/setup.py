@@ -38,7 +38,7 @@ setup(
     author='{{ cookiecutter.full_name }}',
     author_email='{{ cookiecutter.email }}',
     url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.script_name }}',
-    install_requires=['docopt'],
+    install_requires=[],
     license=read("LICENSE"),
     zip_safe=False,
     keywords='{{ cookiecutter.script_name }}',
@@ -54,7 +54,7 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy'
     ],
-    py_modules=["{{ cookiecutter.script_name }}"],
+    py_modules=["{{ cookiecutter.script_name }}", "docopt"],
     entry_points={
         'console_scripts': [
             "{{cookiecutter.script_name}} = {{cookiecutter.script_name}}:main"
