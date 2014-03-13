@@ -7,12 +7,12 @@ Features
 --------
 
 - docopt_ for command-line arguments parsing
-- nose_ for testing.
+- pytest_ for testing.
 - The ``bundle`` branch has a vendorized version of docopt.
 
 
 .. _docopt: http://docopt.org/
-.. _nose: https://nose.readthedocs.org/en/latest/
+.. _pytest: http://pytest.org/latest/
 
 To use this template
 --------------------
