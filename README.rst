@@ -1,6 +1,9 @@
 cookiecutter-docopt
 ===================
 
+.. image:: https://travis-ci.org/sloria/cookiecutter-docopt.svg?branch=master
+    :target: https://travis-ci.org/sloria/cookiecutter-docopt
+
 A python command-line script template, for use with `cookiecutter <https://github.com/audreyr/cookiecutter>`_.
 
 Features
