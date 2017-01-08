@@ -1,17 +1,20 @@
 cookiecutter-docopt
 ===================
 
+.. image:: https://travis-ci.org/sloria/cookiecutter-docopt.svg?branch=master
+    :target: https://travis-ci.org/sloria/cookiecutter-docopt
+
 A python command-line script template, for use with `cookiecutter <https://github.com/audreyr/cookiecutter>`_.
 
 Features
 --------
 
 - docopt_ for command-line arguments parsing
-- nose_ for testing.
+- pytest_ for testing.
 - The ``bundle`` branch has a vendorized version of docopt.
 
 .. _docopt: http://docopt.org/
-.. _nose: https://nose.readthedocs.org/en/latest/
+.. _pytest: http://pytest.org/latest/
 
 To use this template
 --------------------

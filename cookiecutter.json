@@ -1,10 +1,10 @@
 {
-	"full_name": "Steven Loria",
-	"email": "sloria1@gmail.com",
-	"github_username": "sloria",
-    "repo_name": "naval_fate",
-    "script_name": "naval_fate",
-	"short_description": "A Python Script",
-	"year": "2013",
-	"version": "0.1.0"
+  "full_name": "Steven Loria",
+  "email": "sloria1@gmail.com",
+  "github_username": "sloria",
+  "repo_name": "naval_fate",
+  "script_name": "naval_fate",
+  "short_description": "A Python Script",
+  "year": "2017",
+  "version": "0.1.0"
 }
