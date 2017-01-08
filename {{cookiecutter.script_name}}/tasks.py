@@ -14,28 +14,28 @@ def test(ctx):
 
 @task
 def clean(ctx):
-    run("rm -rf build")
-    run("rm -rf dist")
-    run("rm -rf {{cookiecutter.repo_name}}.egg-info")
+    run('rm -rf build')
+    run('rm -rf dist')
+    run('rm -rf {{cookiecutter.repo_name}}.egg-info')
     clean_docs(ctx)
     print("Cleaned up.")
 
 
 @task
 def clean_docs(ctx):
-    run("rm -rf %s" % build_dir)
+    run('rm -rf %s' % build_dir)
 
 
 @task
 def browse_docs(ctx):
-    run("open %s" % os.path.join(build_dir, 'index.html'))
+    run('open %s' % os.path.join(build_dir, 'index.html'))
 
 
 @task
 def build_docs(ctx, clean=False, browse=False):
     if clean:
         clean_docs(ctx)
-    run("sphinx-build %s %s" % (docs_dir, build_dir), pty=True)
+    run('sphinx-build %s %s' % (docs_dir, build_dir), pty=True)
     if browse:
         browse_docs(ctx)
 
