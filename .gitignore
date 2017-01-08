@@ -40,7 +40,9 @@ output/*/index.html
 
 # Sphinx
 docs/_build
+README.html
 
 # Cookiecutter
 output/
 boilerplate/
+naval_fate/
